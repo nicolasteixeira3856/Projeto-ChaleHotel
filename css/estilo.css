@@ -1,0 +1,169 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../img/bg.png);
+}
+
+.clear{
+    clear: both;
+}
+
+/* Configuração do topo */
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 1200px;
+    max-width: 1200px;
+}
+
+#imagem-principal{
+    background: url(../img/topo-imagem-principal.png);
+    height: 250px;
+    z-index: 0;
+}
+
+#area-logo{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#area-menu{
+    width: 50%;
+    z-index: 1;
+    height: 250px;
+    background: url(../img/topo-imagem-lateral.png);
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+#texto-menu{
+    float: right;
+    margin-right: 15px;
+    color: #a29750;
+    font-size: 14px;
+    border-top: 1px solid #a29750;
+    border-bottom: 1px solid #a29750;
+}
+
+#texto-menu input{
+    text-decoration: none;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    background-color: #a29750;
+    color: #eee49e;
+    margin-bottom: 4.5px;
+}
+
+#menu{
+    margin-left: 140px;
+    float: left;
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu a{
+    text-decoration: none;
+    padding: 5px;
+    color: #a29750;
+    background: none;
+}
+
+#menu a:hover{
+    background: #eee49e;
+}
+
+#depoimento{
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+/* Fim da configuração do topo */
+
+/* Começo da configuração do conteúdo */
+
+#conteudo{
+    background: url(../img/bg-container.png) repeat-y;
+    overflow: auto;
+}
+
+#conteudo-esquerda{
+    float: left;
+    padding: 15px;
+    width: 46%;
+}
+
+#conteudo-esquerda p{
+    text-align: justify;
+}
+
+#conteudo-esquerda h3{
+    color: #817840;
+    text-align: center;
+}
+
+#conteudo-direita{
+    float: right;
+    width: 46%;
+    padding: 10px;
+}
+
+#conteudo-direita img{
+    width: 30%;
+    float: left;
+    
+}
+
+#conteudo-direita .texto{
+    width: 68%;
+    float: right;
+    color: black;
+    font-size: 14px;
+}
+
+#conteudo-direita p{
+    color: #817840;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#conteudo-direita ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#conteudo-direita ul li a{
+    text-decoration: none;
+    background: none;
+}
+
+#conteudo-direita ul li:hover{
+    background-color:#f3ecbb;
+}
+
+/* Fim da configuração do conteúdo */
+
+#rodape{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    color: #817840;
+    background: #ffffff;
+}
+
+#rodape a{
+    color: #817840;
+    text-decoration: none;
+    font-weight: bold;
+}
